@@ -310,7 +310,7 @@ font-size: calc(16px + 0.5vw);
 #feedback-list {
   width: auto; /* Keep original width */
   height: auto; /* Keep original height */
-  position: absolute; /* Keep it in normal flow */
+  position: relative; /* Keep it in normal flow */
 
   background-color: transparent; /* No change */
   padding: 10px; /* `auto` isn't valid, so setting a small value */
